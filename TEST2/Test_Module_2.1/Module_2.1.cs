@@ -2,7 +2,7 @@
 {
     public class Module_2_1
     {
-        public string Module_Name = "Test Module 2.1 with Test 1.1";
+        public string Module_Name = "Test Module 2.1 (with Test 1.1)";
 
         public double Module_Function(int a, int b)
         {
