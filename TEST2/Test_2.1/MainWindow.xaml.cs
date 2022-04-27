@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Test_Module_2._1;
 
 namespace Test_2._1
 {
@@ -7,11 +8,15 @@ namespace Test_2._1
     /// </summary>
     public partial class MainWindow : Window
     {
+        Module_2_1 Module_2_1;
+
         public MainWindow()
         {
             InitializeComponent();
 
-            //View_Text.Text = Test_Util_1_Source.Instance_Name;
+            Module_2_1 = new Module_2_1();
+
+            View_Text.Text = $"{Module_2_1.Module_Name} ({Module_2_1.Module_Function(2, 1)})";
             //View_ShareText.Text = Test_Share_2_Source.Sharing_Name;
         }
     }
