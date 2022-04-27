@@ -94,12 +94,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Git_Test_1\TEST1\Test_Util_1\Test_Util_1.csproj">
-      <Project>{3C1B3DFF-8863-42FA-A2F6-0AB2F0FC9EA0}</Project>
-      <Name>Test_Util_1</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="..\Test_ShareProject_2\Test_ShareProject_2.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
